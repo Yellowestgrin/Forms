@@ -13,18 +13,22 @@
   <main>
     <form>
       Имя:<br>
-      <input type="text" value="Егор"></input>
-      <input type="radio" value="java">Java</input>
-      <input type="radio" value="cpp">C++</input>
-      <input type="radio" value="python">Python</input>
-      <input type="radio" value="php">PHP</input>
-      <input type="radio" value="javascript">JavaScript</input>
-      <br>Дополнительная информация:
-      <textarea name="info" placeholder="Есть опыт программирования на Java"></textarea>
+      <input type="text" placeholder="Егор"></input>
+      <p>
+        <input type="radio" value="java" checked="checked">Java</input>
+        <input type="radio" value="cpp">C++</input>
+        <input type="radio" value="python">Python</input>
+        <input type="radio" value="php">PHP</input>
+        <input type="radio" value="javascript">JavaScript</input>
+      </p>
+      Дополнительная информация:<br>
+      <textarea name="info" placeholder="Есть опыт программирования на Java" rows="3" cols="5"></textarea><br>
       Секретное слово:<br>
-      <input type="password"></input><br>
+      <input type="password" placeholder="******"></input>
+      <p>
       <input type="checkbox"></input>
       С правилами ознакомился и согласен<br>
+      </p>
       <button>Отправить</button>
       <button>Очистить</button>
     </form>
