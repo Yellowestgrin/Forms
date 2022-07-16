@@ -11,7 +11,7 @@
     <hr>
   </header>
   <main>
-    <form>
+    <form onsubmit="alert('submit!');return false">>
       Имя:<br>
       <input required type="text" placeholder="Егор"></input>
       <p>
@@ -22,7 +22,7 @@
         <input type="radio" value="javascript">JavaScript</input>
       </p>
       Дополнительная информация:<br>
-      <textarea required name="info" placeholder="Есть опыт программирования на Java" rows="5" cols="10"></textarea>
+      <textarea required name="info" placeholder="Есть опыт программирования на Java" rows="5" cols="30"></textarea>
       <p>
         Секретное слово:<br>
         <input required type="password" placeholder="******"></input>
@@ -31,8 +31,8 @@
       <input required type="checkbox"></input>
       С правилами ознакомился и согласен<br>
       </p>
-      <input type="submit">Отправить</input>
-      <input type="reset">Очистить</input>
+      <input type="submit"></input>
+      <input type="reset"></input>
     </form>
   </main>
   <footer>
